@@ -3,7 +3,7 @@
   <p align="center">
     <a href="https://lhmd.top">Weijie Wang*</a>
     ·
-    <a href="https://github.com/Alresd">YeQing Chen*</a>
+    <a href="https://github.com/Alresd">Yeqing Chen*</a>
     ·
     <a href="https://steve-zeyu-zhang.github.io">Zeyu Zhang</a>
     ·
@@ -21,7 +21,7 @@
     ·
     <a href="https://bohanzhuang.github.io">Bohan Zhuang</a>
   </p>
-  <h3 align="center"><a href="https://arxiv.org/abs/2505.23734">Paper</a> | <a href="https://lhmd.top/volsplat">Project Page</a> | <a href="https://github.com/ziplab/VolSplat">Code</a> | <a href="https://huggingface.co/lhmd/VolSplat">Models</a> </h3>
+  <h3 align="center"><a href="https://arxiv.org/abs/2509.19297">Paper</a> | <a href="https://lhmd.top/volsplat">Project Page</a> | <a href="https://github.com/ziplab/VolSplat">Code</a> | <a href="https://huggingface.co/lhmd/VolSplat">Models</a> </h3>
   <div align="center"></div>
 </p>
 
@@ -52,8 +52,8 @@ If you find our work useful for your research, please consider citing us:
 ```bibtex
 @article{wang2025volsplat,
   title={VolSplat: Rethinking Feed-Forward 3D Gaussian Splatting with Voxel-Aligned Prediction},
-  author={Wang, Weijie and Chen, YeQing and Zhang, Zeyu and Liu, Hengyu and Wang, Haoxiao and Feng, Zhiyuan and Qin, Wenkang and Zhu, Zheng and Chen, Donny Y. and Zhuang, Bohan},
-  journal={},
+  author={Wang, Weijie and Chen, Yeqing and Zhang, Zeyu and Liu, Hengyu and Wang, Haoxiao and Feng, Zhiyuan and Qin, Wenkang and Zhu, Zheng and Chen, Donny Y. and Zhuang, Bohan},
+  journal={arXiv preprint arXiv:2509.19297},
   year={2025}
 }
 ```
