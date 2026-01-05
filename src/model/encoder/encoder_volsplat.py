@@ -13,7 +13,7 @@ from ...dataset.types import BatchedExample, DataShim
 from ...geometry.projection import sample_image_grid
 from ..types import Gaussians
 
-from .common.guassian_adapter_depth import GaussianAdapter_depth, GaussianAdapterCfg
+from .common.gaussian_adapter_depth import GaussianAdapter_depth, GaussianAdapterCfg
 
 
 from .encoder import Encoder
@@ -349,7 +349,7 @@ class EncoderVolSplat(Encoder[EncoderVolSplatCfg]):
                 raw_gaussians = rearrange(raw_gaussians,"b v r srf c -> b v r srf () c"),
                 input_images =rearrange(context["image"], "b v c h w -> (b v) c h w"),   
                 depth = depth,
-                coordidate = gaussians.C,
+                coordinate = gaussians.C,
                 points = batched_points,
                 voxel_resolution = voxel_resolution
             )
@@ -422,7 +422,7 @@ class EncoderVolSplat(Encoder[EncoderVolSplatCfg]):
                 raw_gaussians = rearrange(intermediate_raw_gaussians,"b v r srf c -> b v r srf () c"),
                 input_images =rearrange(context["image"], "b v c h w -> (b v) c h w"),  
                 depth = intermediate_depth,
-                coordidate = intermediate_gaussians.C,
+                coordinate = intermediate_gaussians.C,
                 points = batched_median_points,
                 voxel_resolution = voxel_resolution
             )

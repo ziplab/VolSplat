@@ -57,7 +57,7 @@ class GaussianAdapter_depth(nn.Module):
         raw_gaussians: Tensor, #[1, 1, N, 37]
         input_images: Tensor | None = None,
         depth : Tensor | None = None,
-        coordidate: Optional[Tensor] = None,
+        coordinate: Optional[Tensor] = None,
         points: Optional[Tensor] = None,
         voxel_resolution: float = 0.01,
         eps: float = 1e-8,
@@ -89,8 +89,8 @@ class GaussianAdapter_depth(nn.Module):
                 voxel_resolution = voxel_resolution,
                 b=b,v=v
             )
-            # if torch.equal(coordidate, voxel_color.C):
-            if coordidate.shape == voxel_color.C.shape:
+            # if torch.equal(coordinate, voxel_color.C):
+            if coordinate.shape == voxel_color.C.shape:
                 colors = voxel_color.F  # [N_total, C]
 
                 if sh.shape[0] > 1 and sh.shape[2] != colors.shape[0]:
