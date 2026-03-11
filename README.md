@@ -37,6 +37,8 @@ Pixel-aligned feed-forward 3DGS methods suffer from two primary limitations: 1) 
 
 ## Updates
 
+- **11/03/26 Update:** Since the above links are frequently broken, we provide preprocessed data on HuggingFace ([RE10K](https://huggingface.co/datasets/lhmd/re10k_torch) and [ACID](https://huggingface.co/datasets/lhmd/acid_torch)).
+
 - **2025-12-21 Update:** Release our training/evaluation code and model checkpoints. We are working on a more powerful version of VolSplat. Stay tuned!
 
 - **2025-09-23 Update:** Release our paper on arXiv.
@@ -89,6 +91,8 @@ Our pre-trained models and baseline models are hosted on [Hugging Face](https://
 ### RealEstate10K / ACID
 
 Please refer to [ZPressor](https://github.com/ziplab/ZPressor?tab=readme-ov-file#datasets) for dataset format and preprocessed versions of the datasets. 
+
+We also provide preprocessed data on HuggingFace ([RE10K](https://huggingface.co/datasets/lhmd/re10k_torch) and [ACID](https://huggingface.co/datasets/lhmd/acid_torch)).
 
 ### Scannet
 
