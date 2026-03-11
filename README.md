@@ -37,7 +37,7 @@ Pixel-aligned feed-forward 3DGS methods suffer from two primary limitations: 1) 
 
 ## Updates
 
-- **11/03/26 Update:** Since the above links are frequently broken, we provide preprocessed data on HuggingFace ([RE10K](https://huggingface.co/datasets/lhmd/re10k_torch) and [ACID](https://huggingface.co/datasets/lhmd/acid_torch)).
+- **11/03/26 Update:** Since the dataset links of RE10K and ACID are frequently broken, we provide preprocessed data on HuggingFace ([RE10K](https://huggingface.co/datasets/lhmd/re10k_torch) and [ACID](https://huggingface.co/datasets/lhmd/acid_torch)).
 
 - **2025-12-21 Update:** Release our training/evaluation code and model checkpoints. We are working on a more powerful version of VolSplat. Stay tuned!
 
