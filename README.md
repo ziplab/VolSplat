@@ -219,7 +219,7 @@ If you find our work useful for your research, please consider citing us:
 ```bibtex
 @article{wang2025volsplat,
   title={VolSplat: Rethinking Feed-Forward 3D Gaussian Splatting with Voxel-Aligned Prediction},
-  author={Wang, Weijie and Chen, Yeqing and Zhang, Zeyu and Liu, Hengyu and Wang, Haoxiao and Feng, Zhiyuan and Qin, Wenkang and Zhu, Zheng and Chen, Donny Y. and Zhuang, Bohan},
+  author={Wang, Weijie and Chen, Yeqing and Zhang, Zeyu and Liu, Hengyu and Wang, Haoxiao and Feng, Zhiyuan and Qin, Wenkang and Chen, Feng and Zhu, Zheng and Chen, Donny Y. and Zhuang, Bohan},
   journal={arXiv preprint arXiv:2509.19297},
   year={2025}
 }
