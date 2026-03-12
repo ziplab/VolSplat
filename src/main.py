@@ -15,9 +15,6 @@ import random
 import numpy as np
 
 import sys
-# Exclude conflicting paths
-sys.path = [p for p in sys.path if "/mnt/data-3/users/nichaojun/.local" not in p]
-
 
 from pytorch_lightning import Trainer
 from pytorch_lightning.callbacks import (
