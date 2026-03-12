@@ -15,6 +15,8 @@
     ·
     <a href="https://scholar.google.com/citations?user=TE9stNgAAAAJ">Wenkang Qin</a>
     ·
+    <a href="https://scholar.google.com/citations?user=fwpY_HoAAAAJ">Feng Chen</a>
+    ·
     <a href="http://www.zhengzhu.net/">Zheng Zhu</a>
     ·
     <a href="https://donydchen.github.io">Donny Y. Chen</a>
