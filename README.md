@@ -23,6 +23,7 @@
     ·
     <a href="https://bohanzhuang.github.io">Bohan Zhuang</a>
   </p>
+  <h3 align="center">ECCV 2026</h3>
   <h3 align="center"><a href="https://arxiv.org/abs/2509.19297">Paper</a> | <a href="https://lhmd.top/volsplat">Project Page</a> | <a href="https://github.com/ziplab/VolSplat">Code</a> | <a href="https://huggingface.co/lhmd/VolSplat">Models</a> </h3>
   <div align="center"></div>
 </p>
